@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Snake Game - FE 7 Kelompok 1</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body onload="initialize()">
+    <div class="container">
+        <div class="board">
+            <h1 class="board-header">Snake Game - FE 7 - Kelompok 1</h1>
+            <canvas id="lifeBoard" width="600" height="40" style="border: 1px solid #000000; border-bottom: 0"></canvas>
+            <canvas id="snakeBoard" width="600" height="600" style="border: 1px solid #000000"></canvas>
+            <div class="team">
+                <table border="1px">
+                    <tr>
+                        <td>AHMED RAYHAN PRIMADEDAS</td>
+                        <td>FE2240281</td>
+                        <td>SCRUM Master & Engineer</td>
+                    </tr>
+                    <tr>
+                        <td>AHMAD FARIZI</td>
+                        <td>FE2306195</td>
+                        <td>Designer & Engineer</td>
+                    </tr>
+                    <tr>
+                        <td>MIA NUR ERTINA</td>
+                        <td>FE2005678</td>
+                        <td>Engineer</td>
+                    </tr>
+                    <tr>
+                        <td>DWI WAHYU MUHARROM</td>
+                        <td>FE2143190</td>
+                        <td>Designer</td>
+                    </tr>
+                    <tr>
+                        <td>M. IRSYAT</td>
+                        <td>FE2283596</td>
+                        <td>Product Owner</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="data">
+            <div class="data-item">
+                <div class="data-title">Score</div>
+                <div class="data-value" id="score"></div>
+            </div>
+            <div class="data-item">
+                <div class="data-title">Speed</div>
+                <div class="data-value" id="speed"></div>
+            </div>
+            <div class="data-item">
+                <div class="data-title">Level</div>
+                <div class="data-value" id="level"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
